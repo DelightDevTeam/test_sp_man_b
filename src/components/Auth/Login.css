@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.homeBody{
+    min-height: 100vh;
+}
+.loginCard{
+    margin-top: 10%;
+}
+.btn-red{
+    background-color: #B4202E;
+    color: white;
+}
+.btn-red:hover{
+    background-color: #7E1F27;
+    color: white;
+}
+.password{
+    position: relative;
+}
+.eye{
+    position: absolute;
+    color: #000;
+    top: 43px;
+    right: 15px;
+    cursor: pointer;
+}
+.spinnerCircle{
+    width: 5px;
+    height: 5px;
+}
